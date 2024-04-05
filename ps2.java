@@ -14,10 +14,12 @@ public class ps2 {
         
         //qustion 3
         // use comparison operators to find out wheter a give number is greater than the user entere number or not 
-        Scanner sc= new Scanner(System.in);
-        int a=sc.nextInt();
-        System.out.println(a>8);
-        System.out.println(7*49/7+35/7);
+        // Scanner sc= new Scanner(System.in);
+        // int a=sc.nextInt();
+        // System.out.println(a>8);
+        // System.out.println(7*49/7+35/7);
+
+        
        
     }    
 }
