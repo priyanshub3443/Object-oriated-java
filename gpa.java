@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class gpa {
-    @SuppressWarnings("resource")
+   
     public static void main(String[] args) {
         
         // float e = 45f;

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 public class ps2 {
     public static void main(String[] args) {
         // Qustion 1;
@@ -8,9 +8,9 @@ public class ps2 {
 
         // qustion 2
         // wrie a java program to encry[t a grade by adding 87 to it. decrypt it to show the corect grade]
-        // char grade='b';
-        // grade=(char)(grade+8);
-        // System.out.println(grade);
+        char grade='b';
+        grade=(char)(grade+8);
+        System.out.println(grade);
         
         //qustion 3
         // use comparison operators to find out wheter a give number is greater than the user entere number or not 

@@ -11,9 +11,11 @@ public class ps5{
      // qustion 2 
      //write a progaram sum the n even number
      int sum=0;
-     int n,i=0;
+     int n=3;
+     int i=0;
      while (n<=i) {
-        
+        sum=sum+2*i;
+        i++;
      }
     }
 }
