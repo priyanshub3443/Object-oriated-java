@@ -42,14 +42,17 @@ public class ps5{
     //     factorial=factorial*i;
     // }
     // System.out.println("the faction of " + n +"==" + factorial );
-     int factorial=1;
-    int n=5;
-    int i=1;
-    while (i<=n) {
-        factorial=factorial*i;
-        i++;
-    }
-    System.out.println("the faction of " + n +"==" + factorial );
+    //  int factorial=1;
+    // int n=5;
+    // int i=1;
+    // while (i<=n) {
+    //     factorial=factorial*i;
+    //     i++;
+    // }
+    // System.out.println("the faction of " + n +"==" + factorial );
+
+    //qustion 7
+    
      
     }
 }
