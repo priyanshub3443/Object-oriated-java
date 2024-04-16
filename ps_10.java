@@ -19,6 +19,57 @@ class Cylinder extends Circle{
         return Math.PI*radius*radius*hight;
     }
 }
+class Rectangle {
+    private double length;
+    private double width;
+
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double area() {
+        return length * width;
+    }
+}
+
+// Cuboid class
+class Cuboid extends Rectangle {
+    private double height;
+
+    public Cuboid(double length, double width, double height) {
+        super(length, width);
+        this.height = height;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public double volume() {
+        return area() * height;
+    }
+}
 public class ps_10 {
     public static void main(String[] args) {
         Cylinder obj = new Cylinder(12, 4);
