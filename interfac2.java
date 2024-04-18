@@ -39,7 +39,7 @@ class MySmartPhone extends MyCellphone implements MyWifi, MyCamera {
         System.out.println("Getting list of Networks");
         String[] networkList = {"harry", "prashanth", "Anjali5G"};
         return networkList;
-    }
+    } 
 
     public void connectToNetwork(String network) {
         System.out.println("Connecting to " + network);
