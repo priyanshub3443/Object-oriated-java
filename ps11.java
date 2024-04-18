@@ -53,8 +53,22 @@ class SmartTelephone extends Telephone{
 }
 public class ps11 {
     public static void main(String[] args) {
-        //Parent2 p = new Parent2(); -- error
-      
-        //Child3 c3 = new Child3(); -- error
-    }
+        FountainPen pen = new FountainPen();
+        pen.changeNib();
+
+        // Q3
+        Human harry = new Human();
+        harry.sleep();
+
+        // Q5
+        Monkey m1 = new Human();
+        m1.jump();
+        m1.bite();
+        // m1.speak(); --> Cannot use speak method because the reference is monkey which does not have speak method
+
+    //     BasicAnimal lovish = new Human();
+    //     // lovish.speak(); --> error
+    //     lovish.eat();
+    //     lovish.sleep();
+    // }
 }
