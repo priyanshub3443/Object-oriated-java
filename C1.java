@@ -10,7 +10,7 @@ public class C1{
         System.out.println(a);
     }
 }
-public class acces_modifier {
+public class C1 {
     public static void main(String[] args) {
         C1 c = new C1();
         // c.meth1();
