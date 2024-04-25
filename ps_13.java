@@ -19,6 +19,7 @@ class practice2 extends Thread{
     }
 }
 
+
 public class ps_13 {
     
 }
